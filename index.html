@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hello World</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="scene">
+    <div class="earth-wrapper">
+      <img src="globe.png" alt="Earth" id="earth" class="earth" />
+      <div id="bubble" class="bubble">——</div>
+    </div>
+
+    <div class="code-block">
+      <pre class="code-line">#include &lt;stdio.h&gt;</pre>
+      <pre class="code-line">int main() {</pre>
+
+      <div class="input-row">
+        <div class="code-wrapper">
+          <input id="codeInput" type="text" placeholder='Say to the World' />
+        </div>
+        <button id="runBtn">Run ▶</button>
+      </div>
+
+      <pre class="code-line">  return 0;</pre>
+      <pre class="code-line">}</pre>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
